@@ -397,8 +397,8 @@ tbody tr:last-child td{border-bottom:none}
     <div class="ai-panel-header">
       <div class="ai-panel-icon">🤖</div>
       <div>
-        <div class="ai-panel-title">AssetIQ Intelligence</div>
-        <div class="ai-panel-sub">Powered by Claude — ask anything about your assets</div>
+        <div class="ai-panel-title">AI Intelligence</div>
+        <div class="ai-panel-sub">Ask anything about your assets</div>
       </div>
       <button class="btn btn-outline btn-sm" onclick="clearAiChat()">Clear Chat</button>
     </div>
@@ -419,7 +419,7 @@ tbody tr:last-child td{border-bottom:none}
   <div id="ai-result-section" style="display:none">
     <div class="flex justify-between items-center mb-3">
       <h3 style="font-family:'Syne',sans-serif;font-size:1rem" id="ai-result-title">Results</h3>
-      <button class="btn btn-success btn-sm" onclick="exportAiResult()">📥 Export to XLSX</button>
+      <button class="btn btn-success btn-sm" onclick="exportAiResult()">Export to XLSX</button>
     </div>
     <div class="table-wrap">
       <table id="ai-result-table">
@@ -532,7 +532,7 @@ tbody tr:last-child td{border-bottom:none}
       <button class="modal-close" onclick="closeModal('bulk-edit-modal')">×</button>
     </div>
     <div class="modal-body">
-      <div class="alert-bar info">ℹ️ Assets are matched by <strong>Serial Number</strong>. Only existing records will be updated.</div>
+      <div class="alert-bar info">Assets are matched by <strong>Serial Number</strong>. Only existing records will be updated.</div>
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
         <p class="text-muted" style="font-size:.85rem">Upload your edited asset spreadsheet</p>
         <button class="btn btn-outline btn-sm" onclick="downloadEditTemplate()">⬇ Download Edit Template</button>
@@ -575,7 +575,7 @@ tbody tr:last-child td{border-bottom:none}
     </div>
     <div class="modal-footer">
       <button class="btn btn-outline" onclick="closeModal('report-modal')">Cancel</button>
-      <button class="btn btn-success" onclick="doGenerateReport()">📊 Export XLSX</button>
+      <button class="btn btn-success" onclick="doGenerateReport()">Export XLSX</button>
     </div>
   </div>
 </div>
